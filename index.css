@@ -1,0 +1,529 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-nunito-sans: "Nunito Sans";
+  --font-playfair-display: "Playfair Display";
+
+  /* font sizes */
+  --font-size-3xl: 1.38rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-lg: 1.13rem;
+  --font-size-9xl: 1.75rem;
+  --font-size-35xl: 3.38rem;
+  --font-size-17xl: 2.25rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-forestgreen: #49b649;
+
+  /* Gaps */
+  --gap-xl: 1.25rem;
+  --gap-4xs: 0.56rem;
+
+  /* Paddings */
+  --padding-41xl: 3.75rem;
+  --padding-13xl: 2rem;
+  --padding-mini: 0.94rem;
+  --padding-21xl: 2.5rem;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-5xs: 8px;
+  --br-31xl: 50px;
+}
+
+.trasave-child {
+  position: absolute;
+  top: 8rem;
+  left: 0;
+  width: 63.29rem;
+  height: 62.21rem;
+  object-fit: cover;
+}
+.group-child,
+.pngegg-78-1 {
+  position: absolute;
+  object-fit: contain;
+}
+.group-child {
+  top: 16.8rem;
+  left: 0;
+  width: 49.52rem;
+  height: 36.46rem;
+}
+.pngegg-78-1 {
+  top: 0;
+  left: 8.77rem;
+  border-radius: 143px;
+  width: 40.13rem;
+  height: 52.69rem;
+}
+.vector-parent {
+  position: absolute;
+  top: 9.63rem;
+  left: 39.38rem;
+  width: 49.52rem;
+  height: 53.26rem;
+}
+.save-your-money {
+  position: absolute;
+  top: 35.57rem;
+  left: 6.54rem;
+  display: inline-block;
+  width: 33.75rem;
+}
+.saving {
+  font-weight: 900;
+}
+.your-money-for {
+  font-weight: 900;
+  font-family: var(--font-nunito-sans);
+  color: var(--color-white);
+}
+.save-now,
+.saving-your-money-container {
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+.saving-your-money-container {
+  margin: 0;
+  position: absolute;
+  top: 20.82rem;
+  left: 6.54rem;
+  font-size: var(--font-size-35xl);
+  width: 44.06rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.25));
+  color: var(--color-forestgreen);
+  font-family: var(--font-playfair-display);
+}
+.save-now {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+  font-family: var(--font-nunito-sans);
+  color: var(--color-white);
+  text-align: left;
+}
+.save-now-wrapper {
+  position: absolute;
+  top: 45.2rem;
+  left: 6.54rem;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(87.03deg, #07e807, #0c310c);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mini) var(--padding-21xl);
+}
+.uiux-case-study {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 800;
+}
+.uiux-case-study-wrapper {
+  position: absolute;
+  top: 45.25rem;
+  left: 20.88rem;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(90deg, #07df07, #0b430b 88.85%);
+  border: 1px solid var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mini) var(--padding-21xl);
+}
+.service-tips-icon {
+  position: relative;
+  width: 6.25rem;
+  height: 6.25rem;
+  object-fit: cover;
+}
+.save {
+  font-weight: 600;
+}
+.save-money {
+  position: relative;
+}
+.invest-in-trasave {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 12.94rem;
+}
+.service-tips-parent,
+.travel-agency-parent,
+.wedding-gift-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4xs);
+}
+.service-tips-parent {
+  flex-shrink: 0;
+  padding: var(--padding-41xl) var(--padding-13xl);
+}
+.travel-agency-parent,
+.wedding-gift-parent {
+  border-radius: var(--br-31xl);
+  filter: drop-shadow(0 1px 6px rgba(255, 132, 73, 0.25));
+}
+.wedding-gift-parent {
+  flex-shrink: 0;
+  padding: var(--padding-41xl) var(--padding-13xl);
+}
+.travel-agency-parent {
+  width: 17.88rem;
+  padding: var(--padding-41xl) 2.19rem;
+  box-sizing: border-box;
+}
+.frame-parent {
+  position: absolute;
+  top: 86.81rem;
+  left: 15.19rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5.81rem;
+  font-size: var(--font-size-17xl);
+}
+.travel1 {
+  font-weight: 900;
+  font-family: var(--font-playfair-display);
+  color: var(--color-forestgreen);
+}
+.why-to-travel-container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+}
+.ambitious-about-your {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 70.5rem;
+}
+.why-to-travel-with-us-parent {
+  position: absolute;
+  top: 70.56rem;
+  left: 11.94rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.75rem;
+  text-align: right;
+  font-size: var(--font-size-35xl);
+}
+.unsplashocrpjce6gpk-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 94.5rem;
+  height: 53.69rem;
+  object-fit: cover;
+}
+.frame-child {
+  position: relative;
+  background-color: var(--color-forestgreen);
+  width: 9.19rem;
+  height: 0.44rem;
+}
+.save-your-travel {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: flex;
+  align-items: flex-end;
+  width: 36.38rem;
+}
+.rectangle-parent {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.63rem;
+}
+.there-are-so {
+  display: block;
+}
+.there-are-so-container {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 29.81rem;
+  flex-shrink: 0;
+}
+.frame-group {
+  position: absolute;
+  top: 12rem;
+  left: 6.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 15.94rem;
+}
+.unsplashocrpjce6gpk-parent {
+  position: absolute;
+  top: 114.13rem;
+  left: 0;
+  width: 94.5rem;
+  height: 53.69rem;
+  font-size: var(--font-size-35xl);
+}
+.unsplash1fxmet2u5du-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 94.5rem;
+  height: 28.75rem;
+  object-fit: cover;
+}
+.about {
+  position: relative;
+  font-size: var(--font-size-9xl);
+  font-weight: 800;
+  color: var(--color-forestgreen);
+}
+.other-products,
+.technical-info {
+  position: relative;
+  white-space: pre-wrap;
+}
+.other-products {
+  text-align: left;
+}
+.about-parent,
+.contact-us-parent {
+  position: absolute;
+  top: 4.44rem;
+  left: 29.13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.contact-us-parent {
+  left: 46.63rem;
+}
+.copright-2022-curlistic {
+  position: absolute;
+  top: 25.56rem;
+  left: 34.75rem;
+  font-size: 1.25rem;
+  white-space: pre-wrap;
+}
+.newsletter {
+  color: var(--color-forestgreen);
+}
+.subscribe-newsletter {
+  position: relative;
+  line-height: 1.88rem;
+  font-weight: 800;
+}
+.group-inner,
+.group-item {
+  border: 0;
+  position: absolute;
+  border-radius: var(--br-5xs);
+}
+.group-item {
+  outline: 0;
+  background-color: var(--color-white);
+  top: 0;
+  left: 0;
+  width: 25.5rem;
+  height: 3.69rem;
+}
+.group-inner {
+  cursor: pointer;
+  padding: 0;
+  background-color: var(--color-forestgreen);
+  top: 0.69rem;
+  left: 17.81rem;
+  width: 7.19rem;
+  height: 2.31rem;
+}
+.subscribe {
+  position: absolute;
+  top: 1.06rem;
+  left: 18.81rem;
+}
+.enter-your-email {
+  position: absolute;
+  top: 1.13rem;
+  left: 1.81rem;
+  color: #9d9d9d;
+}
+.rectangle-group {
+  position: relative;
+  width: 25.5rem;
+  height: 3.69rem;
+  font-size: var(--font-size-lg);
+}
+.subscribe-newsletter-parent {
+  position: absolute;
+  top: 4.56rem;
+  left: 62.56rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: var(--font-size-9xl);
+}
+.mask-group-icon {
+  position: relative;
+  width: 7.13rem;
+  height: 9.13rem;
+  object-fit: cover;
+}
+.trasave-travel-fund {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 17.19rem;
+}
+.mask-group-icon1 {
+  position: relative;
+  width: 10.94rem;
+  height: 2.3rem;
+  object-fit: cover;
+}
+.mask-group-parent {
+  position: absolute;
+  top: 1rem;
+  left: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+}
+.unsplash1fxmet2u5du-parent {
+  position: absolute;
+  top: 173.5rem;
+  left: 0;
+  width: 94.5rem;
+  height: 28.75rem;
+  overflow: hidden;
+  text-align: center;
+}
+.mask-group-icon2 {
+  position: relative;
+  width: 6.69rem;
+  height: 6.69rem;
+  object-fit: cover;
+}
+.experience,
+.home {
+  text-decoration: none;
+}
+.home {
+  position: relative;
+  font-weight: 700;
+  color: var(--color-forestgreen);
+}
+.experience {
+  color: inherit;
+}
+.contact-us1,
+.experience,
+.wallet {
+  position: relative;
+  font-weight: 600;
+}
+.contact-us1 {
+  font-weight: 900;
+}
+.btn{
+  display: flex;
+padding: 9px 25px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 10px;
+border: 1px solid #FFF;
+color: #FFF;
+font-family: Nunito Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+background: linear-gradient(90deg, #07DA07 0%, #0B430B 91.46%);
+}
+
+.contact-us-wrapper,
+.home-parent,
+.mask-group-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.home-parent a{
+  cursor: pointer;
+}
+.home-parent {
+  flex-shrink: 0;
+  gap: 2.5rem;
+}
+.mask-group-group {
+  position: absolute;
+  top: 1.13rem;
+  left: 5.44rem;
+  gap: 31.5rem;
+  font-size: var(--font-size-3xl);
+}
+.trasave-child4,
+.trasave-inner,
+.trasave-item {
+  position: relative;
+  width: 94.5rem;
+  height: 65.63rem;
+  display: none;
+}
+.trasave-child4,
+.trasave-inner {
+  height: 53.75rem;
+}
+.trasave-child4 {
+  height: 41.25rem;
+}
+.trasave {
+  position: relative;
+  background-color: #000;
+  width: 100%;
+  height: 202.56rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-nunito-sans);
+}
